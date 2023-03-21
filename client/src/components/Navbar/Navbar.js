@@ -9,7 +9,7 @@ function Navbar() {
     const classes = useStyles();
   return (
     <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography className={classes.heading} variant="h2" align="center">Recollectionsc</Typography>
+        <Typography className={classes.heading} variant="h2" align="center">Recollections</Typography>
         <img className={classes.image} src={memories} alt="icon" height="90" width={100} />
       </AppBar>
   )
